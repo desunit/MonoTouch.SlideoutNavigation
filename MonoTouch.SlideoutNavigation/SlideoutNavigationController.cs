@@ -33,6 +33,14 @@ namespace MonoTouch.SlideoutNavigation
         private string _menuTextRight = "Right Menu > ";
         #endregion private attributes
         #region public attributes
+		/// <summary>
+		/// Gets the internal top UINavigationController.
+		/// </summary>
+		/// <value>The internal top UINavigationController.</value>
+		public UINavigationController InternalTopNavigation {
+			get { return _internalTopNavigation; }
+		}
+
         /// <summary>
         /// Gets or sets the color of the background.
         /// </summary>
